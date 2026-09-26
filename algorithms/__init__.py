@@ -8,6 +8,7 @@ from .basic_sorts import (
     selection_sort,
     sort_records,
 )
+from .efficient_sorts import merge_sort, quick_sort, sort_records_efficient
 
 __all__ = [
     "SUPPORTED_KEYS",
@@ -15,5 +16,8 @@ __all__ = [
     "bubble_sort",
     "selection_sort",
     "insertion_sort",
+    "merge_sort",
+    "quick_sort",
     "sort_records",
+    "sort_records_efficient",
 ]
